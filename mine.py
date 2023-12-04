@@ -62,7 +62,6 @@ def main():
         # Combine user input with the prompt and query
         prompt_query = f"you have provided with MCQ question and its option as a chatbot model: {user_input}"
         text_query = prompt_query + user_input
-
         # Perform similarity search
         docs = document_search.similarity_search(text_query)
 
