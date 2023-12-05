@@ -8,7 +8,7 @@ from langchain.chains.question_answering import load_qa_chain
 from langchain.llms import OpenAI
 
 # Set API keys
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "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"
 os.environ["SERPAPI_API_KEY"] = "28c2445d1bfe7530595be6fbc858b1968d776af69c6034aa5feda50deab4b990"
 
 # PDF processing
